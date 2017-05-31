@@ -1,0 +1,195 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: ;
+
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'neutra text';
+    font-size: 20px;
+    padding:10px;
+
+}
+.nav-menu{
+	font-family:'neutra text';
+	font-size: 35px;
+
+
+}
+.nav-show{
+	display: none;
+	width: 20px;
+}
+
+
+
+/* Change the link color on hover */
+li a:hover {
+   
+    color: white;
+}
+
+.home{
+	background-color: #CB9797;
+	opacity: 87%;
+}
+
+.uxui {
+	background-color: #DBB9B9;
+	
+}
+.wd {
+	background-color: #E8D3D3;
+}
+.sc {
+	background-color: #F2E2E2;
+}
+.about {
+	background-color: #F4EDED;
+}
+
+nav {
+	
+}
+
+.hamMenu {
+	width: 40px;
+	height: 40px;
+}
+
+ h1 {
+	font-family: 'megrim';
+	margin: 0 auto;
+	width: 257px;
+}
+.title {
+	font-family:'neutra text';
+	text-align: center;
+}
+
+.homePage {
+	background-color:#F7F7F7;
+}
+
+.homeColor {
+	width: 94%;
+	height: 40%;
+	background-color: #D3DDDC;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 20px;
+
+}
+
+.ux {
+	display: inline-flex;
+	margin-bottom: 0 auto;
+
+
+
+
+
+}
+
+.topper {
+	display: inline-flex;
+	align-items: flex-end;
+	align-content: flex-end;
+	float: right;
+}
+
+.pineapple {
+	width: 300px;
+	height: 375px;
+	display: flex;
+	position: relative;
+	
+}
+
+.uxuinav {
+	font-family:'neutra text';
+	font-size: 40px;
+	display: flex;
+	
+	
+
+	
+}
+
+.uxline {
+	display: flex;
+	width: 95%;
+	height: 1px;
+	background: #000000;
+	float: right;
+	margin-left: 30px;
+
+ 
+}
+
+}
+.viewMore clearfix{
+	
+}
+
+.vmlink{
+ display: flex;
+ padding-left: 700px;
+ text-decoration: none;
+ color: #000000;
+ font-family: 'raleway';
+ font-size: 20px;
+}
+
+.vmlinkwd {
+ display: flex;
+ text-decoration: none;
+ color: #000000;
+ font-family: 'raleway';
+ font-size: 20px;
+ width: 900px;
+}
+
+.wdiline {
+	display: flex;
+	width: 65%;
+	height: 1px;
+	background: #000000;
+	float: left;
+	
+	
+
+}
+
+.webdevnav {
+	float: right;
+	margin: 0;
+	margin-left: 30px;
+	font-size: 40px;
+	font-family: 'neutra text';
+
+}
+
+.wdi {
+	width: 80%;
+	height: 50px;
+	display: inline;
+	float: left;
+    margin-top: 12%;
+    padding-left: 30px;
+
+	/*display: flex;
+
+*/}
+
+
+
