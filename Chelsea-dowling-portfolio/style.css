@@ -1,22 +1,22 @@
-body.hmpage{
+/*body.hmpage{
 	background-image: url(./images/thomas-verbruggen-94814.jpg);
 	background-repeat: no-repeat;
 	background-position:center; 
-	height: 100%;
+	min-height: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	overflow: visible;
-  	
+  	overflow: hidden;
+  	margin: 0;
+
 	
-}
+}*/
 
-body html {
-	width: 200%;
-	height: 200%;
+html, body {
+    margin: 0;
+    height: 100%;
 }
-
 
 
 
@@ -61,14 +61,15 @@ li a {
 }
 
 .background-image-left{
-	background-image: url(./images/leaf-ss-background.png);
+	background-image: url(./images/thomas-verbruggen-94814.jpg);
 	width: 50%;
+	background-size: cover;
    	position: absolute;
    	left: 0px;
    	height: 100%;
    	background-repeat: no-repeat;
    	z-index: -1;
-   	background-position: 89% 46%;
+   	/*background-position: 89% 46%;*/
 
 }
 
@@ -84,7 +85,7 @@ li a {
 	
 }*/
 .background-color-right{
-   background-color: #213B30;
+   background-color: #04424C;
    width: 50%;
    position: absolute;
    right: 0px;
@@ -101,6 +102,88 @@ li a {
 	text-decoration: none;
 
 }
+
+.dev-logo{
+	text-align: center; 
+	font-size:15em;
+	margin-top: 20%;
+	font-family: 'megrim';
+	margin: 0 auto;
+	text-decoration: none;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .ux-logo{
+	text-align: center; 
+	font-size:9em;
+	margin-top: 20%;
+	font-family: 'megrim';
+	margin: 0 auto;
+	text-decoration: none;
+	}
+
+	.dev-logo{
+	text-align: center; 
+	font-size:9em;
+	margin-top: 20%;
+	font-family: 'megrim';
+	margin: 0 auto;
+	text-decoration: none;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.ux-logo{
+		text-align: center; 
+		font-size:7em;
+		margin-top: 20%;
+		font-family: 'megrim';
+		margin: 0 auto;
+		text-decoration: none;
+	}
+
+	.dev-logo{
+		text-align: center; 
+		font-size:7em;
+		margin-top: 20%;
+		font-family: 'megrim';
+		margin: 0 auto;
+		text-decoration: none;
+
+	}
+  
+}
+
+/*@media (max-width: 400px) {
+	.row.uxdevhome {
+    	margin-top: 350px !important;
+	}
+	.ux-logo{
+		text-align: center; 
+		font-size:18em;
+		margin-top: 20%;
+		font-family: 'megrim';
+		margin: 0 auto;
+		text-decoration: none;
+	}
+
+	.dev-logo{
+		text-align: center; 
+		font-size:18em;
+		margin-top: 20%;
+		font-family: 'megrim';
+		margin: 0 auto;
+		text-decoration: none;
+
+	}
+	.ctv{
+		font-size: 2em;
+	}
+  
+}*/ /*figure this out>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .ux-logo:hover{
 	color: #FFB6C1 !important; 
@@ -124,16 +207,6 @@ li a {
 }
 
 
-
-.dev-logo{
-	text-align: center; 
-	font-size:15em;
-	margin-top: 20%;
-	font-family: 'megrim';
-	margin: 0 auto;
-	text-decoration: none;
-
-}
 
 /* Change the link color on hover */
 li a:hover {
@@ -182,9 +255,6 @@ h3{
 	text-align: center;
 }
 
-.homePage {
-	background-color:#F7F7F7;
-}
 
 .homeColor {
 	width: 94%;
@@ -219,13 +289,6 @@ h3{
 	height: 40%;
 }
 
-.pineapple {
-	width: 300px;
-	height: 375px;
-	display: flex;
-	position: relative;
-	
-}
 
 .uxuinav {
 	font-family:'neutra text';
